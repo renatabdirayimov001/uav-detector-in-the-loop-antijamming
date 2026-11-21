@@ -1,0 +1,111 @@
+band,domain,N,policy,PSR,false_hops_per100
+2.4,matched,-95.0,AFT (proposed),0.9997,0.0267
+2.4,matched,-95.0,Det + NACK-hop,0.9997,0.0267
+2.4,matched,-95.0,Detector hard (0.5),0.9997,0.0267
+2.4,matched,-95.0,FCCS (conformal),0.9667,0.51
+2.4,matched,-95.0,Oracle-state,1.0,0.0
+2.4,matched,-90.0,AFT (proposed),0.9996,0.0383
+2.4,matched,-90.0,Det + NACK-hop,0.9996,0.0317
+2.4,matched,-90.0,Detector hard (0.5),0.9996,0.0267
+2.4,matched,-90.0,FCCS (conformal),0.9664,0.5117
+2.4,matched,-90.0,Oracle-state,0.9999,0.0
+2.4,matched,-87.0,AFT (proposed),0.9981,0.2033
+2.4,matched,-87.0,Det + NACK-hop,0.9979,0.1483
+2.4,matched,-87.0,Detector hard (0.5),0.9979,0.0267
+2.4,matched,-87.0,FCCS (conformal),0.9658,0.5633
+2.4,matched,-87.0,Oracle-state,0.9982,0.0
+2.4,matched,-85.0,AFT (proposed),0.9877,1.1267
+2.4,matched,-85.0,Det + NACK-hop,0.9874,0.8633
+2.4,matched,-85.0,Detector hard (0.5),0.9874,0.0267
+2.4,matched,-85.0,FCCS (conformal),0.9623,0.715
+2.4,matched,-85.0,Oracle-state,0.9877,0.0
+2.4,pow_shift,-95.0,AFT (proposed),0.991,0.1233
+2.4,pow_shift,-95.0,Det + NACK-hop,0.9906,0.075
+2.4,pow_shift,-95.0,Detector hard (0.5),0.9882,0.0183
+2.4,pow_shift,-95.0,FCCS (conformal),0.966,0.96
+2.4,pow_shift,-95.0,Oracle-state,1.0,0.0
+2.4,pow_shift,-90.0,AFT (proposed),0.9908,0.13
+2.4,pow_shift,-90.0,Det + NACK-hop,0.9904,0.0783
+2.4,pow_shift,-90.0,Detector hard (0.5),0.9879,0.0183
+2.4,pow_shift,-90.0,FCCS (conformal),0.9658,0.97
+2.4,pow_shift,-90.0,Oracle-state,0.9999,0.0
+2.4,pow_shift,-87.0,AFT (proposed),0.989,0.2717
+2.4,pow_shift,-87.0,Det + NACK-hop,0.9886,0.195
+2.4,pow_shift,-87.0,Detector hard (0.5),0.986,0.0183
+2.4,pow_shift,-87.0,FCCS (conformal),0.965,1.0483
+2.4,pow_shift,-87.0,Oracle-state,0.9982,0.0
+2.4,pow_shift,-85.0,AFT (proposed),0.9785,1.1067
+2.4,pow_shift,-85.0,Det + NACK-hop,0.978,0.9217
+2.4,pow_shift,-85.0,Detector hard (0.5),0.9754,0.0183
+2.4,pow_shift,-85.0,FCCS (conformal),0.9612,1.5283
+2.4,pow_shift,-85.0,Oracle-state,0.9877,0.0
+5.0,matched,-95.0,AFT (proposed),0.9992,0.05
+5.0,matched,-95.0,Det + NACK-hop,0.9992,0.05
+5.0,matched,-95.0,Detector hard (0.5),0.9992,0.0
+5.0,matched,-95.0,FCCS (conformal),0.9738,0.3517
+5.0,matched,-95.0,Oracle-state,0.9994,0.0
+5.0,matched,-93.0,AFT (proposed),0.9947,0.4133
+5.0,matched,-93.0,Det + NACK-hop,0.9947,0.4017
+5.0,matched,-93.0,Detector hard (0.5),0.9947,0.0
+5.0,matched,-93.0,FCCS (conformal),0.9716,0.3983
+5.0,matched,-93.0,Oracle-state,0.9948,0.0
+5.0,matched,-92.0,AFT (proposed),0.9876,1.02
+5.0,matched,-92.0,Det + NACK-hop,0.9876,0.9667
+5.0,matched,-92.0,Detector hard (0.5),0.9876,0.0
+5.0,matched,-92.0,FCCS (conformal),0.9682,0.445
+5.0,matched,-92.0,Oracle-state,0.9877,0.0
+5.0,matched,-91.0,AFT (proposed),0.9711,2.4167
+5.0,matched,-91.0,Det + NACK-hop,0.9711,2.305
+5.0,matched,-91.0,Detector hard (0.5),0.9711,0.0
+5.0,matched,-91.0,FCCS (conformal),0.9606,0.6
+5.0,matched,-91.0,Oracle-state,0.9712,0.0
+5.0,matched,-90.0,AFT (proposed),0.934,5.45
+5.0,matched,-90.0,Det + NACK-hop,0.934,5.2983
+5.0,matched,-90.0,Detector hard (0.5),0.934,0.0
+5.0,matched,-90.0,FCCS (conformal),0.9339,3.85
+5.0,matched,-90.0,Oracle-state,0.9341,0.0
+5.0,matched,-87.0,AFT (proposed),0.5309,37.695
+5.0,matched,-87.0,Det + NACK-hop,0.5309,37.6117
+5.0,matched,-87.0,Detector hard (0.5),0.5309,0.0
+5.0,matched,-87.0,FCCS (conformal),0.531,5.485
+5.0,matched,-87.0,Oracle-state,0.531,0.0
+5.0,matched,-85.0,AFT (proposed),0.1189,70.6967
+5.0,matched,-85.0,Det + NACK-hop,0.1189,70.6833
+5.0,matched,-85.0,Detector hard (0.5),0.1189,0.0
+5.0,matched,-85.0,FCCS (conformal),0.1189,5.5367
+5.0,matched,-85.0,Oracle-state,0.1189,0.0
+5.0,pow_shift,-95.0,AFT (proposed),0.9815,0.165
+5.0,pow_shift,-95.0,Det + NACK-hop,0.9711,0.195
+5.0,pow_shift,-95.0,Detector hard (0.5),0.9356,0.0
+5.0,pow_shift,-95.0,FCCS (conformal),0.9723,0.4083
+5.0,pow_shift,-95.0,Oracle-state,0.9994,0.0
+5.0,pow_shift,-93.0,AFT (proposed),0.9776,0.53
+5.0,pow_shift,-93.0,Det + NACK-hop,0.9666,0.5617
+5.0,pow_shift,-93.0,Detector hard (0.5),0.9308,0.0
+5.0,pow_shift,-93.0,FCCS (conformal),0.9705,0.385
+5.0,pow_shift,-93.0,Oracle-state,0.9948,0.0
+5.0,pow_shift,-92.0,AFT (proposed),0.971,1.1033
+5.0,pow_shift,-92.0,Det + NACK-hop,0.9598,1.1033
+5.0,pow_shift,-92.0,Detector hard (0.5),0.9239,0.0
+5.0,pow_shift,-92.0,FCCS (conformal),0.9672,0.4967
+5.0,pow_shift,-92.0,Oracle-state,0.9877,0.0
+5.0,pow_shift,-91.0,AFT (proposed),0.9554,2.4617
+5.0,pow_shift,-91.0,Det + NACK-hop,0.9446,2.4017
+5.0,pow_shift,-91.0,Detector hard (0.5),0.9084,0.0
+5.0,pow_shift,-91.0,FCCS (conformal),0.9595,0.785
+5.0,pow_shift,-91.0,Oracle-state,0.9712,0.0
+5.0,pow_shift,-90.0,AFT (proposed),0.919,5.465
+5.0,pow_shift,-90.0,Det + NACK-hop,0.9091,5.375
+5.0,pow_shift,-90.0,Detector hard (0.5),0.8735,0.0
+5.0,pow_shift,-90.0,FCCS (conformal),0.931,3.805
+5.0,pow_shift,-90.0,Oracle-state,0.9341,0.0
+5.0,pow_shift,-87.0,AFT (proposed),0.525,37.5067
+5.0,pow_shift,-87.0,Det + NACK-hop,0.521,37.3517
+5.0,pow_shift,-87.0,Detector hard (0.5),0.4947,0.0
+5.0,pow_shift,-87.0,FCCS (conformal),0.5294,5.1867
+5.0,pow_shift,-87.0,Oracle-state,0.531,0.0
+5.0,pow_shift,-85.0,AFT (proposed),0.1186,70.6317
+5.0,pow_shift,-85.0,Det + NACK-hop,0.1184,70.5583
+5.0,pow_shift,-85.0,Detector hard (0.5),0.1113,0.0
+5.0,pow_shift,-85.0,FCCS (conformal),0.1186,5.1567
+5.0,pow_shift,-85.0,Oracle-state,0.1189,0.0

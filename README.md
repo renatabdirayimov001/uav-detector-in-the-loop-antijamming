@@ -17,9 +17,11 @@ Tashkent University of Information Technologies named after Muhammad al-Khwarizm
 | `src/emulator_and_policies.py` | Emulator and baseline policies extracted from the notebook (runs offline on the saved scores) |
 | `src/feedback_policies.py` | NACK-hop and the proposed **Adaptive Feedback Threshold (AFT)** policy |
 | `scripts/run_policy_study.py` | Reproduces `results/policy_study/` (closed-loop study, paired Wilcoxon tests, AFT sensitivity) |
+| `scripts/run_robustness_study.py` | Reproduces `results/robustness/` (fading-only packet losses via noise sweep, AFT margin, run length) |
 | `scripts/li_uav_jamming_audit.py` | Leakage-aware audit of the public UAV jamming dataset of Li et al. (2022) |
 | `results/kaggle_v1`, `results/kaggle_v3` | Raw outputs of the two Kaggle runs (detector metrics, closed-loop runs, scores, metadata) |
 | `results/policy_study` | Offline policy study on the real detector scores |
+| `results/robustness` | Robustness study: raw runs and per-noise-level summary |
 | `results/li_audit` | Audit results on the Li et al. UAV dataset |
 | `data/README.md` | Where to obtain the datasets (not redistributed) |
 
@@ -67,11 +69,19 @@ Tashkent University of Information Technologies named after Muhammad al-Khwarizm
 
   Unseen jamming types are always flagged as jamming but absorbed into known types.
 
+### Robustness to packet losses not caused by jamming (5 GHz)
+
+Raising the noise power from -95 to -90 dBm makes fading alone cost the oracle 0.07% to 6.59% of packets.
+In the matched domain AFT stays identical to the fixed detector at every level. Under the +3 dBm shift AFT
+keeps +4.6 to +4.7 pp over the fixed detector; FCCS overtakes AFT once fading outage exceeds about 3%.
+The AFT margin m (0 to 1 decade) changes POW PSR only from 0.9814 to 0.9817.
+
 ## Reproduce
 
 ```bash
 pip install -r requirements.txt
 python scripts/run_policy_study.py            # ~6 min CPU, uses results/kaggle_v3 artefacts
+python scripts/run_robustness_study.py        # ~6 min CPU (2 cores)
 git clone https://github.com/michaelevol/uavs_jamming_detection data/uavs_jamming_detection
 python scripts/li_uav_jamming_audit.py        # ~2 min CPU
 ```
