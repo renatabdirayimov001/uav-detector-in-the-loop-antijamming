@@ -1,5 +1,7 @@
 # Detector-in-the-Loop Anti-Jamming for UAV Links
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24410565.svg)](https://doi.org/10.5281/zenodo.24410565)
+
 Code, Kaggle notebook and results for a closed-loop study of UAV anti-jamming in which the jammer state is
 **inferred by a detector trained on real spectral-scan measurements** instead of being given to the decision
 policy as an oracle, as most anti-jamming studies assume.
@@ -86,7 +88,7 @@ dataset `daniaherzalla/radio-frequency-jamming` attached (CPU only; several hour
 
 ## Citation
 
-See `CITATION.cff`. The Zenodo DOI will be added after the first release.
+See `CITATION.cff`. Archived on Zenodo: [10.5281/zenodo.24410565](https://doi.org/10.5281/zenodo.24410565) (v1.0.0).
 Please also cite the datasets: Herzalla et al., WiFiSpectralJam, arXiv:2608.15728 (2026); Li et al., IEEE Access 10, 16859–16870 (2022),
 doi:10.1109/ACCESS.2022.3150020.
 

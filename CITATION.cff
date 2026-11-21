@@ -3,6 +3,8 @@ message: "If you use this code or these results, please cite them as below."
 title: "Detector-in-the-Loop Anti-Jamming for UAV Links: code and results"
 version: 1.0.0
 date-released: 2026-11-21
+doi: 10.5281/zenodo.24410565
+repository-code: "https://github.com/renatabdirayimov001/uav-detector-in-the-loop-antijamming"
 license: MIT
 authors:
   - family-names: Abdirayimov
