@@ -1,0 +1,241 @@
+band,domain,jammer,policy,PSR,jammed_frac,hops_per100,false_hops_per100
+2.4,loc_pow,markov,ACK-only SW-UCB,0.8425,0.229,12.81,6.06
+2.4,loc_pow,markov,"DQN oracle-trained, detector-deployed",0.846,0.2324,7.945,3.175
+2.4,loc_pow,markov,DQN trained on detector scores,0.9876,0.0289,13.655,5.565
+2.4,loc_pow,markov,DQN trained on oracle state,1.0,0.0,10.435,4.06
+2.4,loc_pow,markov,Detector hard (0.5),0.999,0.0024,3.245,0.015
+2.4,loc_pow,markov,Detector soft (overlap-weighted risk),0.9983,0.0034,4.04,0.02
+2.4,loc_pow,markov,FBR (online Platt),0.999,0.0024,3.24,0.015
+2.4,loc_pow,markov,FCCS (conformal),0.9779,0.0436,3.935,0.3
+2.4,loc_pow,markov,Oracle-state,1.0,0.0,4.175,0.0
+2.4,loc_pow,markov,Random-FH,0.6549,0.431,90.895,51.765
+2.4,loc_pow,reactive,ACK-only SW-UCB,0.2894,0.736,16.475,0.92
+2.4,loc_pow,reactive,"DQN oracle-trained, detector-deployed",0.9749,0.0269,57.745,2.445
+2.4,loc_pow,reactive,DQN trained on detector scores,0.9704,0.0316,62.33,7.765
+2.4,loc_pow,reactive,DQN trained on oracle state,1.0,0.0,58.565,1.925
+2.4,loc_pow,reactive,Detector hard (0.5),0.968,0.0336,54.35,0.015
+2.4,loc_pow,reactive,Detector soft (overlap-weighted risk),0.9681,0.0335,54.355,0.005
+2.4,loc_pow,reactive,FBR (online Platt),0.9684,0.0332,54.4,0.025
+2.4,loc_pow,reactive,FCCS (conformal),0.9533,0.0491,54.985,1.56
+2.4,loc_pow,reactive,Oracle-state,1.0,0.0,56.69,0.0
+2.4,loc_pow,reactive,Random-FH,0.6592,0.43,90.895,28.425
+2.4,loc_pow,sweep,ACK-only SW-UCB,0.733,0.3395,12.36,2.77
+2.4,loc_pow,sweep,"DQN oracle-trained, detector-deployed",0.9637,0.0752,15.905,7.58
+2.4,loc_pow,sweep,DQN trained on detector scores,0.997,0.0094,10.21,1.545
+2.4,loc_pow,sweep,DQN trained on oracle state,1.0,0.0,8.765,2.685
+2.4,loc_pow,sweep,Detector hard (0.5),0.9976,0.0044,6.005,0.025
+2.4,loc_pow,sweep,Detector soft (overlap-weighted risk),0.998,0.0061,7.69,0.03
+2.4,loc_pow,sweep,FBR (online Platt),0.9976,0.0044,5.965,0.025
+2.4,loc_pow,sweep,FCCS (conformal),0.966,0.0658,7.195,0.645
+2.4,loc_pow,sweep,Oracle-state,1.0,0.0,8.265,0.0
+2.4,loc_pow,sweep,Random-FH,0.6602,0.4278,90.895,52.135
+2.4,loc_shift,markov,ACK-only SW-UCB,0.8425,0.229,12.81,6.06
+2.4,loc_shift,markov,"DQN oracle-trained, detector-deployed",0.8546,0.2168,6.775,2.525
+2.4,loc_shift,markov,DQN trained on detector scores,1.0,0.0,10.43,3.92
+2.4,loc_shift,markov,DQN trained on oracle state,1.0,0.0,10.435,4.06
+2.4,loc_shift,markov,Detector hard (0.5),1.0,0.0001,3.29,0.015
+2.4,loc_shift,markov,Detector soft (overlap-weighted risk),0.9999,0.0002,3.985,0.01
+2.4,loc_shift,markov,FBR (online Platt),1.0,0.0001,3.29,0.015
+2.4,loc_shift,markov,FCCS (conformal),0.9784,0.0377,4.06,0.33
+2.4,loc_shift,markov,Oracle-state,1.0,0.0,4.175,0.0
+2.4,loc_shift,markov,Random-FH,0.6549,0.431,90.895,51.765
+2.4,loc_shift,reactive,ACK-only SW-UCB,0.2894,0.736,16.475,0.92
+2.4,loc_shift,reactive,"DQN oracle-trained, detector-deployed",0.9992,0.0008,58.55,1.945
+2.4,loc_shift,reactive,DQN trained on detector scores,0.9998,0.0002,65.065,8.375
+2.4,loc_shift,reactive,DQN trained on oracle state,1.0,0.0,58.565,1.925
+2.4,loc_shift,reactive,Detector hard (0.5),0.9991,0.001,56.655,0.025
+2.4,loc_shift,reactive,Detector soft (overlap-weighted risk),0.9991,0.001,56.635,0.005
+2.4,loc_shift,reactive,FBR (online Platt),0.9991,0.001,56.655,0.025
+2.4,loc_shift,reactive,FCCS (conformal),0.954,0.0467,53.73,0.355
+2.4,loc_shift,reactive,Oracle-state,1.0,0.0,56.69,0.0
+2.4,loc_shift,reactive,Random-FH,0.6592,0.43,90.895,28.425
+2.4,loc_shift,sweep,ACK-only SW-UCB,0.733,0.3395,12.36,2.77
+2.4,loc_shift,sweep,"DQN oracle-trained, detector-deployed",0.9652,0.0693,16.035,7.685
+2.4,loc_shift,sweep,DQN trained on detector scores,1.0,0.0002,9.465,1.02
+2.4,loc_shift,sweep,DQN trained on oracle state,1.0,0.0,8.765,2.685
+2.4,loc_shift,sweep,Detector hard (0.5),1.0,0.0,6.03,0.04
+2.4,loc_shift,sweep,Detector soft (overlap-weighted risk),1.0,0.0001,7.67,0.045
+2.4,loc_shift,sweep,FBR (online Platt),1.0,0.0,6.03,0.04
+2.4,loc_shift,sweep,FCCS (conformal),0.9676,0.0686,7.3,0.69
+2.4,loc_shift,sweep,Oracle-state,1.0,0.0,8.265,0.0
+2.4,loc_shift,sweep,Random-FH,0.6602,0.4278,90.895,52.135
+2.4,matched,markov,ACK-only SW-UCB,0.8425,0.229,12.81,6.06
+2.4,matched,markov,"DQN oracle-trained, detector-deployed",0.8546,0.2168,6.775,2.525
+2.4,matched,markov,DQN trained on detector scores,1.0,0.0,10.43,3.92
+2.4,matched,markov,DQN trained on oracle state,1.0,0.0,10.435,4.06
+2.4,matched,markov,Detector hard (0.5),1.0,0.0001,3.29,0.015
+2.4,matched,markov,Detector soft (overlap-weighted risk),0.9999,0.0002,3.965,0.015
+2.4,matched,markov,FBR (online Platt),1.0,0.0001,3.29,0.015
+2.4,matched,markov,FCCS (conformal),0.9786,0.0356,4.15,0.365
+2.4,matched,markov,Oracle-state,1.0,0.0,4.175,0.0
+2.4,matched,markov,Random-FH,0.6549,0.431,90.895,51.765
+2.4,matched,reactive,ACK-only SW-UCB,0.2894,0.736,16.475,0.92
+2.4,matched,reactive,"DQN oracle-trained, detector-deployed",0.9992,0.0008,58.55,1.945
+2.4,matched,reactive,DQN trained on detector scores,0.9998,0.0002,65.065,8.375
+2.4,matched,reactive,DQN trained on oracle state,1.0,0.0,58.565,1.925
+2.4,matched,reactive,Detector hard (0.5),0.9991,0.001,56.655,0.025
+2.4,matched,reactive,Detector soft (overlap-weighted risk),0.9991,0.001,56.635,0.005
+2.4,matched,reactive,FBR (online Platt),0.9991,0.001,56.655,0.025
+2.4,matched,reactive,FCCS (conformal),0.9539,0.0466,53.875,0.52
+2.4,matched,reactive,Oracle-state,1.0,0.0,56.69,0.0
+2.4,matched,reactive,Random-FH,0.6592,0.43,90.895,28.425
+2.4,matched,sweep,ACK-only SW-UCB,0.733,0.3395,12.36,2.77
+2.4,matched,sweep,"DQN oracle-trained, detector-deployed",0.9652,0.0693,16.035,7.685
+2.4,matched,sweep,DQN trained on detector scores,1.0,0.0002,9.465,1.02
+2.4,matched,sweep,DQN trained on oracle state,1.0,0.0,8.765,2.685
+2.4,matched,sweep,Detector hard (0.5),1.0,0.0,6.03,0.04
+2.4,matched,sweep,Detector soft (overlap-weighted risk),0.9999,0.0001,7.74,0.035
+2.4,matched,sweep,FBR (online Platt),1.0,0.0,6.03,0.04
+2.4,matched,sweep,FCCS (conformal),0.9675,0.0706,7.16,0.65
+2.4,matched,sweep,Oracle-state,1.0,0.0,8.265,0.0
+2.4,matched,sweep,Random-FH,0.6602,0.4278,90.895,52.135
+2.4,pow_shift,markov,ACK-only SW-UCB,0.8425,0.229,12.81,6.06
+2.4,pow_shift,markov,"DQN oracle-trained, detector-deployed",0.846,0.2324,7.945,3.175
+2.4,pow_shift,markov,DQN trained on detector scores,0.9876,0.0289,13.655,5.565
+2.4,pow_shift,markov,DQN trained on oracle state,1.0,0.0,10.435,4.06
+2.4,pow_shift,markov,Detector hard (0.5),0.999,0.0024,3.245,0.015
+2.4,pow_shift,markov,Detector soft (overlap-weighted risk),0.9986,0.0034,3.875,0.005
+2.4,pow_shift,markov,FBR (online Platt),0.999,0.0024,3.24,0.015
+2.4,pow_shift,markov,FCCS (conformal),0.9781,0.0471,3.965,0.315
+2.4,pow_shift,markov,Oracle-state,1.0,0.0,4.175,0.0
+2.4,pow_shift,markov,Random-FH,0.6549,0.431,90.895,51.765
+2.4,pow_shift,reactive,ACK-only SW-UCB,0.2894,0.736,16.475,0.92
+2.4,pow_shift,reactive,"DQN oracle-trained, detector-deployed",0.9749,0.0269,57.745,2.445
+2.4,pow_shift,reactive,DQN trained on detector scores,0.9704,0.0316,62.33,7.765
+2.4,pow_shift,reactive,DQN trained on oracle state,1.0,0.0,58.565,1.925
+2.4,pow_shift,reactive,Detector hard (0.5),0.968,0.0336,54.35,0.015
+2.4,pow_shift,reactive,Detector soft (overlap-weighted risk),0.9681,0.0335,54.355,0.005
+2.4,pow_shift,reactive,FBR (online Platt),0.9684,0.0332,54.4,0.025
+2.4,pow_shift,reactive,FCCS (conformal),0.9533,0.0492,55.3,1.905
+2.4,pow_shift,reactive,Oracle-state,1.0,0.0,56.69,0.0
+2.4,pow_shift,reactive,Random-FH,0.6592,0.43,90.895,28.425
+2.4,pow_shift,sweep,ACK-only SW-UCB,0.733,0.3395,12.36,2.77
+2.4,pow_shift,sweep,"DQN oracle-trained, detector-deployed",0.9637,0.0752,15.905,7.58
+2.4,pow_shift,sweep,DQN trained on detector scores,0.997,0.0094,10.21,1.545
+2.4,pow_shift,sweep,DQN trained on oracle state,1.0,0.0,8.765,2.685
+2.4,pow_shift,sweep,Detector hard (0.5),0.9976,0.0044,6.005,0.025
+2.4,pow_shift,sweep,Detector soft (overlap-weighted risk),0.9982,0.0057,7.565,0.025
+2.4,pow_shift,sweep,FBR (online Platt),0.9976,0.0044,5.965,0.025
+2.4,pow_shift,sweep,FCCS (conformal),0.9666,0.0685,7.1,0.66
+2.4,pow_shift,sweep,Oracle-state,1.0,0.0,8.265,0.0
+2.4,pow_shift,sweep,Random-FH,0.6602,0.4278,90.895,52.135
+5,loc_pow,markov,ACK-only SW-UCB,0.9779,0.0216,29.55,27.895
+5,loc_pow,markov,"DQN oracle-trained, detector-deployed",0.9868,0.0128,1.43,0.745
+5,loc_pow,markov,DQN trained on detector scores,0.9882,0.0113,1.975,1.375
+5,loc_pow,markov,DQN trained on oracle state,0.9994,0.0,1.82,0.975
+5,loc_pow,markov,Detector hard (0.5),0.9918,0.0078,0.47,0.0
+5,loc_pow,markov,Detector soft (overlap-weighted risk),0.9882,0.0115,0.555,0.0
+5,loc_pow,markov,FBR (online Platt),0.992,0.0076,0.54,0.0
+5,loc_pow,markov,FCCS (conformal),0.993,0.0063,0.75,0.11
+5,loc_pow,markov,Oracle-state,0.9994,0.0,0.7,0.0
+5,loc_pow,markov,Random-FH,0.9372,0.063,92.1,86.3
+5,loc_pow,reactive,ACK-only SW-UCB,0.6992,0.3024,49.995,15.135
+5,loc_pow,reactive,"DQN oracle-trained, detector-deployed",0.8294,0.1753,44.255,0.005
+5,loc_pow,reactive,DQN trained on detector scores,0.8315,0.173,44.405,0.01
+5,loc_pow,reactive,DQN trained on oracle state,0.9994,0.0,56.695,0.005
+5,loc_pow,reactive,Detector hard (0.5),0.8294,0.1753,44.25,0.0
+5,loc_pow,reactive,Detector soft (overlap-weighted risk),0.8294,0.1753,44.25,0.0
+5,loc_pow,reactive,FBR (online Platt),0.9022,0.0996,49.655,0.05
+5,loc_pow,reactive,FCCS (conformal),0.9534,0.0462,53.97,0.585
+5,loc_pow,reactive,Oracle-state,0.9994,0.0,56.69,0.0
+5,loc_pow,reactive,Random-FH,0.9371,0.0628,92.1,38.94
+5,loc_pow,sweep,ACK-only SW-UCB,0.9238,0.0762,33.25,29.09
+5,loc_pow,sweep,"DQN oracle-trained, detector-deployed",0.9858,0.0141,3.41,1.65
+5,loc_pow,sweep,DQN trained on detector scores,0.9855,0.0144,11.22,9.475
+5,loc_pow,sweep,DQN trained on oracle state,0.9994,0.0,4.46,2.16
+5,loc_pow,sweep,Detector hard (0.5),0.9855,0.0141,3.16,0.0
+5,loc_pow,sweep,Detector soft (overlap-weighted risk),0.9856,0.0141,3.015,0.0
+5,loc_pow,sweep,FBR (online Platt),0.9856,0.014,3.035,0.0
+5,loc_pow,sweep,FCCS (conformal),0.9715,0.028,5.95,0.315
+5,loc_pow,sweep,Oracle-state,0.9994,0.0,3.89,0.0
+5,loc_pow,sweep,Random-FH,0.9368,0.0629,92.1,86.275
+5,loc_shift,markov,ACK-only SW-UCB,0.9779,0.0216,29.55,27.895
+5,loc_shift,markov,"DQN oracle-trained, detector-deployed",0.9994,0.0,1.82,0.975
+5,loc_shift,markov,DQN trained on detector scores,0.9994,0.0,2.395,1.675
+5,loc_shift,markov,DQN trained on oracle state,0.9994,0.0,1.82,0.975
+5,loc_shift,markov,Detector hard (0.5),0.9994,0.0,0.64,0.0
+5,loc_shift,markov,Detector soft (overlap-weighted risk),0.9994,0.0,0.695,0.0
+5,loc_shift,markov,FBR (online Platt),0.9994,0.0,0.715,0.0
+5,loc_shift,markov,FCCS (conformal),0.994,0.0054,0.685,0.1
+5,loc_shift,markov,Oracle-state,0.9994,0.0,0.7,0.0
+5,loc_shift,markov,Random-FH,0.9372,0.063,92.1,86.3
+5,loc_shift,reactive,ACK-only SW-UCB,0.6992,0.3024,49.995,15.135
+5,loc_shift,reactive,"DQN oracle-trained, detector-deployed",0.999,0.0004,56.665,0.005
+5,loc_shift,reactive,DQN trained on detector scores,0.999,0.0004,56.67,0.01
+5,loc_shift,reactive,DQN trained on oracle state,0.9994,0.0,56.695,0.005
+5,loc_shift,reactive,Detector hard (0.5),0.999,0.0004,56.66,0.0
+5,loc_shift,reactive,Detector soft (overlap-weighted risk),0.999,0.0004,56.66,0.0
+5,loc_shift,reactive,FBR (online Platt),0.999,0.0004,56.66,0.0
+5,loc_shift,reactive,FCCS (conformal),0.9538,0.046,54.05,0.635
+5,loc_shift,reactive,Oracle-state,0.9994,0.0,56.69,0.0
+5,loc_shift,reactive,Random-FH,0.9371,0.0628,92.1,38.94
+5,loc_shift,sweep,ACK-only SW-UCB,0.9238,0.0762,33.25,29.09
+5,loc_shift,sweep,"DQN oracle-trained, detector-deployed",0.9994,0.0,4.46,2.16
+5,loc_shift,sweep,DQN trained on detector scores,0.9994,0.0,14.64,12.365
+5,loc_shift,sweep,DQN trained on oracle state,0.9994,0.0,4.46,2.16
+5,loc_shift,sweep,Detector hard (0.5),0.9994,0.0,4.035,0.0
+5,loc_shift,sweep,Detector soft (overlap-weighted risk),0.9994,0.0,4.105,0.0
+5,loc_shift,sweep,FBR (online Platt),0.9994,0.0,3.87,0.0
+5,loc_shift,sweep,FCCS (conformal),0.9739,0.0256,6.35,0.44
+5,loc_shift,sweep,Oracle-state,0.9994,0.0,3.89,0.0
+5,loc_shift,sweep,Random-FH,0.9368,0.0629,92.1,86.275
+5,matched,markov,ACK-only SW-UCB,0.9779,0.0216,29.55,27.895
+5,matched,markov,"DQN oracle-trained, detector-deployed",0.9994,0.0,1.82,0.975
+5,matched,markov,DQN trained on detector scores,0.9994,0.0,2.395,1.675
+5,matched,markov,DQN trained on oracle state,0.9994,0.0,1.82,0.975
+5,matched,markov,Detector hard (0.5),0.9994,0.0,0.64,0.0
+5,matched,markov,Detector soft (overlap-weighted risk),0.9994,0.0,0.75,0.0
+5,matched,markov,FBR (online Platt),0.9994,0.0,0.715,0.0
+5,matched,markov,FCCS (conformal),0.9942,0.0052,0.66,0.1
+5,matched,markov,Oracle-state,0.9994,0.0,0.7,0.0
+5,matched,markov,Random-FH,0.9372,0.063,92.1,86.3
+5,matched,reactive,ACK-only SW-UCB,0.6992,0.3024,49.995,15.135
+5,matched,reactive,"DQN oracle-trained, detector-deployed",0.999,0.0004,56.665,0.005
+5,matched,reactive,DQN trained on detector scores,0.999,0.0004,56.67,0.01
+5,matched,reactive,DQN trained on oracle state,0.9994,0.0,56.695,0.005
+5,matched,reactive,Detector hard (0.5),0.999,0.0004,56.66,0.0
+5,matched,reactive,Detector soft (overlap-weighted risk),0.999,0.0004,56.66,0.0
+5,matched,reactive,FBR (online Platt),0.999,0.0004,56.66,0.0
+5,matched,reactive,FCCS (conformal),0.9538,0.046,53.955,0.535
+5,matched,reactive,Oracle-state,0.9994,0.0,56.69,0.0
+5,matched,reactive,Random-FH,0.9371,0.0628,92.1,38.94
+5,matched,sweep,ACK-only SW-UCB,0.9238,0.0762,33.25,29.09
+5,matched,sweep,"DQN oracle-trained, detector-deployed",0.9994,0.0,4.46,2.16
+5,matched,sweep,DQN trained on detector scores,0.9994,0.0,14.675,12.4
+5,matched,sweep,DQN trained on oracle state,0.9994,0.0,4.46,2.16
+5,matched,sweep,Detector hard (0.5),0.9994,0.0,4.035,0.0
+5,matched,sweep,Detector soft (overlap-weighted risk),0.9994,0.0,4.065,0.0
+5,matched,sweep,FBR (online Platt),0.9994,0.0,3.87,0.0
+5,matched,sweep,FCCS (conformal),0.9733,0.0263,6.23,0.42
+5,matched,sweep,Oracle-state,0.9994,0.0,3.89,0.0
+5,matched,sweep,Random-FH,0.9368,0.0629,92.1,86.275
+5,pow_shift,markov,ACK-only SW-UCB,0.9779,0.0216,29.55,27.895
+5,pow_shift,markov,"DQN oracle-trained, detector-deployed",0.9868,0.0128,1.43,0.745
+5,pow_shift,markov,DQN trained on detector scores,0.9882,0.0113,1.975,1.375
+5,pow_shift,markov,DQN trained on oracle state,0.9994,0.0,1.82,0.975
+5,pow_shift,markov,Detector hard (0.5),0.9918,0.0078,0.47,0.0
+5,pow_shift,markov,Detector soft (overlap-weighted risk),0.991,0.0087,0.495,0.0
+5,pow_shift,markov,FBR (online Platt),0.992,0.0076,0.54,0.0
+5,pow_shift,markov,FCCS (conformal),0.993,0.0063,0.775,0.13
+5,pow_shift,markov,Oracle-state,0.9994,0.0,0.7,0.0
+5,pow_shift,markov,Random-FH,0.9372,0.063,92.1,86.3
+5,pow_shift,reactive,ACK-only SW-UCB,0.6992,0.3024,49.995,15.135
+5,pow_shift,reactive,"DQN oracle-trained, detector-deployed",0.8294,0.1753,44.255,0.005
+5,pow_shift,reactive,DQN trained on detector scores,0.8315,0.173,44.405,0.01
+5,pow_shift,reactive,DQN trained on oracle state,0.9994,0.0,56.695,0.005
+5,pow_shift,reactive,Detector hard (0.5),0.8294,0.1753,44.25,0.0
+5,pow_shift,reactive,Detector soft (overlap-weighted risk),0.8294,0.1753,44.25,0.0
+5,pow_shift,reactive,FBR (online Platt),0.9022,0.0996,49.655,0.05
+5,pow_shift,reactive,FCCS (conformal),0.9534,0.0462,54.115,0.685
+5,pow_shift,reactive,Oracle-state,0.9994,0.0,56.69,0.0
+5,pow_shift,reactive,Random-FH,0.9371,0.0628,92.1,38.94
+5,pow_shift,sweep,ACK-only SW-UCB,0.9238,0.0762,33.25,29.09
+5,pow_shift,sweep,"DQN oracle-trained, detector-deployed",0.9858,0.014,3.41,1.65
+5,pow_shift,sweep,DQN trained on detector scores,0.9855,0.0144,11.255,9.51
+5,pow_shift,sweep,DQN trained on oracle state,0.9994,0.0,4.46,2.16
+5,pow_shift,sweep,Detector hard (0.5),0.9855,0.0141,3.16,0.0
+5,pow_shift,sweep,Detector soft (overlap-weighted risk),0.9856,0.0144,3.13,0.0
+5,pow_shift,sweep,FBR (online Platt),0.9856,0.014,3.035,0.0
+5,pow_shift,sweep,FCCS (conformal),0.9704,0.0293,6.25,0.41
+5,pow_shift,sweep,Oracle-state,0.9994,0.0,3.89,0.0
+5,pow_shift,sweep,Random-FH,0.9368,0.0629,92.1,86.275

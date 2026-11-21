@@ -1,0 +1,5 @@
+unseen,flagged_as_jamming,pred_dist,unknown_AUROC_maxprob
+Barrage,1.0,"{'Tone': 0.504, 'Protocol Aware': 0.495, 'Pulse': 0.001}",0.7791558458216101
+Protocol Aware,1.0,"{'Barrage': 0.727, 'Tone': 0.273}",0.8792543277499393
+Pulse,0.9922802850356295,"{'Barrage': 0.992, 'Clean': 0.008}",0.817878336086187
+Tone,1.0,"{'Barrage': 0.656, 'Protocol Aware': 0.343, 'Pulse': 0.001}",0.7999653256038838

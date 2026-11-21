@@ -1,0 +1,32 @@
+{
+ "cfg": {
+  "BANDS": [
+   "5",
+   "2.4"
+  ],
+  "MAX_BENIGN_PER_LOC": 2500,
+  "MAX_MAL_PER_COND": 900,
+  "SEEDS": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "T_SLOTS": 2000,
+  "DQN_EPISODES": 25,
+  "DQN_T": 1000,
+  "SMOKE": false,
+  "OUT": "/kaggle/working/out_v3"
+ },
+ "runtime_s": 26594.037364959717,
+ "n_files": {
+  "5": 17200,
+  "2.4": 17200
+ }
+}

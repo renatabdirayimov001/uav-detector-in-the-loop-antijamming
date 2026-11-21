@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/uavs_jamming_detection/
+data/wifispectraljam/

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "Detector-in-the-Loop Anti-Jamming for UAV Links: code and results"
+version: 1.0.0
+date-released: 2026-11-21
+license: MIT
+authors:
+  - family-names: Abdirayimov
+    given-names: Renat
+    orcid: "https://orcid.org/0009-0005-3636-8864"
+    affiliation: "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi"
+keywords:
+  - UAV communications
+  - anti-jamming
+  - jamming detection
+  - closed-loop evaluation
+  - distribution shift
+  - spectral scan
